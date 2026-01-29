@@ -1,0 +1,41 @@
+--TASK ONE--  Convert a user-input into all caps, print the result.
+
+when user input = "hello world" print "HELLO WORLD"
+if user input has capitals
+  then change to lowercase
+  else change nothing
+if user input has symbles/numbers
+  then print "NO SYMBLES/NUMBERS, TRY AGAIN"
+  else do nothing
+
+--TASK TWO--  Have user input two numbers, add them together and print the result.
+
+INTEGER User1
+INTEGER User2
+INTEGER Output
+
+Print "GIVE NUMBER"
+get User Input
+set User1 as user input
+  if user input has letters or symbles
+  then print "ONLY NUMBERS"
+  loop to start of code
+  else do nothing
+Print "SECOND NUMBER"
+get User Input
+set User2 as User Input
+   if user input has letters or symbles
+  then print "ONLY NUMBERS"
+  loop to start of code
+
+User1 plus User2 = Output
+Print OutPut
+
+--TASK THREE--  Get an unknown amount of numbers from the user and add them together, print out the result.
+
+
+--TASK FOUR--  Have the user define a maximum whole number, print out a random number between 0 and their number. Allow the user to play again or quit.
+
+
+--TASK FIVE--  Get a random number. If the number is even print “RIGHT”, if it’s odd, print “LEFT”. Do this ten times. Print out how many times it was “LEFT” and how many times it was “RIGHT”.
+
